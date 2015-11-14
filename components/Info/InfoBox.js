@@ -5,12 +5,12 @@ import React, { Component, PropTypes } from 'react'
 import Info from './Info'
 
 export default class InfoBox extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {data: []}
+    constructor (props) {
+        super(props)
+        this.state = { data: [] }
     }
 
-    componentDidMount() {
+    componentDidMount () {
         fetch(this.props.url)
             .then(response => response.json())
             .then(data => this.setState({data: data}))

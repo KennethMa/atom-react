@@ -17,7 +17,6 @@
     "babel-preset-react": "^6.1.18",
     "css-loader": "^0.22.0",
     "gulp": "^3.9.0",
-    "gulp-rsync": "0.0.5",
     "style-loader": "^0.13.0",
     "vinyl-source-stream": "^1.1.0",
     "webpack": "^1.12.4",

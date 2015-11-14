@@ -4,7 +4,7 @@ import React, { PropTypes } from 'react'
 
 const ListItem = (props) => {
     return (
-        <div className='col-lg-6 col-md-6 col-sm-6'>
+        <div className='col-lg-6 col-md-6 col-sm-6 col-xs-6'>
             <div className="thumbnail">
                 <a href={props.href}><img src={props.img} alt=""/></a>
                 <div className="caption">

@@ -7,10 +7,10 @@ const Comment = (props) => {
     return (
         <div className="comment-item tal">
             <div className="row">
-                <div className="col-lg-1 col-md-1 col-sm-1 user-img">
+                <div className="col-lg-1 col-md-1 col-sm-1 col-xs-2">
                     <img className="img-circle" width="35px" height="35px" src={props.img} alt=""/>
                 </div>
-                <div className="col-lg-11 col-md-11 col-sm-11 user-comment">
+                <div className="col-lg-11 col-md-11 col-sm-11 col-xs-10">
                     <span className="name">{props.author}</span>
                     <span className="time pull-right">{props.time}</span>
 

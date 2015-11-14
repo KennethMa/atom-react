@@ -1,5 +1,4 @@
-/* global fetch */
-'use strict'
+'use strict';
 
 import './comment.css'
 import React, { Component, PropTypes } from 'react'
@@ -7,19 +6,19 @@ import CommentList from './comment-list'
 import CommentForm from './comment-form'
 
 export default class CommentBox extends Component {
-    constructor(props) {
+    constructor (props) {
         super(props)
-        this.state = {data: []}
+        this.state = { data: [] }
     }
 
-    loadComments() {
+    loadComments () {
         fetch(this.props.url)
             .then(response => response.json())
-            .then(data => this.setState({data: data}))
+            .then(data => this.setState({ data: data }))
             .catch(err => console.error(this.props.url, err.toString()))
     }
 
-    componentDidMount() {
+    componentDidMount () {
         this.loadComments()
         setInterval(() => this.loadComments(), this.props.pollInterval)
     }

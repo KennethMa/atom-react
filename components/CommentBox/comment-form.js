@@ -20,7 +20,7 @@ export default class CommentForm extends Component {
     }
 
     handleSubmit(e) {
-        e.preventDefault()
+        e.preventDefault();
         const author = "mzx";
         const img = '//1251349835.cdn.myqcloud.com/1251349835/headimg/userhead.jpg';
         const text = this.refs.text.value.trim();

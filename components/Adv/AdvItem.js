@@ -4,7 +4,7 @@ import React, { PropTypes } from 'react'
 
 const AdvItem = (props) => {
     return (
-        <div className="col-lg-6 col-md-6 col-sm-6">
+        <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6">
             <a href={props.href} className="thumbnail">
                 <img src={props.img} alt={props.title}/>
             </a>

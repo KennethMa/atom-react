@@ -20,10 +20,7 @@ export default class AdvBox extends Component {
     render() {
         return (
             <div>
-                <div className="left-border"></div>
                 <h5>相关集合</h5>
-
-                <div className="left-border"></div>
                 <AdvList data={this.state.data}/>
             </div>
         )

@@ -11,7 +11,7 @@ body {
     background-color: #fff;
 }
 
-.main .container {
+.main .container-fluid {
     max-width: 750px;
     min-height: 50px;
     padding: 0;
@@ -136,4 +136,3 @@ body {
     height: 5px;
     border-top: 1px solid #ddd;
 }
-
