@@ -1,0 +1,15 @@
+#adv h5 {
+    display: inline-block;
+    font-size: 1.1rem;
+    color: #999;
+    margin-bottom: 30px;
+}
+
+.left-border {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 80px;
+    height: 5px;
+    border-top: 1px solid #ddd;
+}

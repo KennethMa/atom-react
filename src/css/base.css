@@ -1,0 +1,41 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-size: 1.4rem;
+    color: #333;
+    background-color: #f1f1f1;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.main .container {
+    max-width: 750px;
+    min-height: 50px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.intro {
+    font-size: 1.2rem;
+}
+
+.tac {
+    text-align: center;
+}
+
+.tal {
+    text-align: left;
+}
+
+.tar {
+    text-align: right;
+}
+
+.bl {
+    border-left: 1px solid #ddd;
+}

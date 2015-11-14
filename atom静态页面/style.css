@@ -1,0 +1,139 @@
+html {font-size: 62.5%;}
+
+body {
+    font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-size: 1.4rem;
+    color: #333;
+    background-color: #f1f1f1;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.main .container {
+    max-width: 750px;
+    min-height: 50px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.tac {
+    text-align: center;
+}
+
+.tal {
+    text-align: left;
+}
+
+.tar {
+    text-align: right;
+}
+
+.bl {
+    border-left: 1px solid #ddd;
+}
+
+
+
+
+.intro {
+    font-size: 1.2rem;
+}
+#words {
+    padding: 10px 50px;
+    color: #9f9f9f;
+}
+
+.img-list {
+    margin-top: 30px;
+    font-size: 1.3rem;
+}
+.img-list .caption p {
+    height: 15px;
+    overflow: hidden;
+}
+
+.thumbnail {
+    border: none;
+}
+
+.price {
+    color: #999;
+}
+
+
+
+#input {
+    width: 100%;
+}
+#input input {
+    width: 100%;
+}
+#comment-form {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+#comment-form input[type="text"] {
+    background-color: #f1f1f1;
+    border: none;
+}
+#post {
+    border: none;
+    color: #e78508;
+}
+
+.comment-item {
+    border-bottom: 1px solid #ddd;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.comment-item:last-child {
+    border: none;
+}
+
+.comment-item .row div:first-child {
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.comment-item .row div:last-child {
+    padding-top: 10px;
+}
+
+.comment-item .name {
+    color: #e78508;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+}
+.comment-item .time {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+.comment-item .comment-content {
+    margin-top: 3px;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+}
+
+
+
+
+
+#adv h5 {
+    display: inline-block;
+    font-size: 1.1rem;
+    color: #999;
+    margin-bottom: 30px;
+}
+
+.left-border {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 80px;
+    height: 5px;
+    border-top: 1px solid #ddd;
+}
+
