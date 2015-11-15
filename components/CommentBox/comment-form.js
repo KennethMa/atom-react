@@ -5,7 +5,7 @@ import React, { Component, PropTypes } from 'react'
 export default class CommentForm extends Component {
 
     componentDidMount() {
-        const input = document.querySelector('#input-comment');
+        /*const input = document.querySelector('#input-comment');
         input.addEventListener("focus", focusFunc, true);
         input.addEventListener("blur", blurFunc, true);
         function focusFunc() {
@@ -16,7 +16,7 @@ export default class CommentForm extends Component {
         function blurFunc() {
             document.querySelector("#input").style.width = "100%";
             document.querySelector("#post").style.display = "none";
-        }
+        }*/
     }
 
     handleSubmit(e) {
@@ -44,7 +44,7 @@ export default class CommentForm extends Component {
                         <input id="input-comment" type="text" className="form-control " placeholder="添加评论..."
                                ref="text"/>
                     </div>
-                    <button id="post" type="submit" className="btn btn-default">发送</button>
+                    <button id="post" type="submit" value="Post" className="btn btn-default">发送</button>
                 </form>
             </div>
         )
