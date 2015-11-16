@@ -25,7 +25,7 @@ export default class CommentForm extends Component {
         const img = '//1251349835.cdn.myqcloud.com/1251349835/headimg/userhead.jpg';
         const text = this.refs.text.value.trim();
         const date = new Date();
-        const time = `${date.getFullYear()}-${date.getMonth()}-${date.getDate()} ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
+        const time = `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()} ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
 
         if (!text || !author) {
             return
